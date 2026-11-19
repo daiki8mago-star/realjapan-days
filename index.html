@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>realjapan days – Day trips in rural Ibaraki</title>
+<meta name="description" content="Small-group day trips to rural Ibaraki for people living in Japan – Mt. Tsukuba, Tsukuba no Yu hot spring, Ushiku Daibutsu and sushi at Yasuke. Guided in English, Spanish and Portuguese.">
+<link rel="canonical" href="https://realjapandays.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://realjapandays.com/">
+<meta property="og:title" content="realjapan days – Day trips in rural Ibaraki">
+<meta property="og:description" content="Mt. Tsukuba, a hot spring, Ushiku Daibutsu and sushi at Yasuke. Small groups, in English, Spanish or Portuguese.">
+<meta property="og:image" content="https://realjapandays.com/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<meta name="theme-color" content="#0c100e">
+<link rel="preload" as="image" href="img/hero.webp" imagesrcset="img/hero-1200.webp 1200w, img/hero.webp 2400w" imagesizes="100vw">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0c100e; --bg-2:#121815; --card:rgba(255,255,255,.045); --card-b:rgba(255,255,255,.1);
+  --ink:#f2efe8; --muted:#a9b0a8; --dim:#7d857c;
+  --sun:#f0b34a; --sun-ink:#1a1206; --moss:#9cc58a;
+  --tbd:#fff0a8;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --sans:"Inter",system-ui,-apple-system,"Hiragino Sans",sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --r:18px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1.02;letter-spacing:-.025em;margin:0}
+h2{font-size:clamp(2.3rem,6vw,4.6rem)}
+h3{font-size:1.5rem;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sun);margin-bottom:18px}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+.lead{font-size:clamp(1.05rem,1.6vw,1.2rem);color:var(--muted);max-width:620px;margin:22px 0 0}
+section{position:relative;padding:clamp(90px,12vw,150px) 0}
+.tbd{background:var(--tbd);color:#2b2a1f;padding:0 5px;border-radius:4px}
+
+/* progress */
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--sun);transform-origin:0 50%;transform:scaleX(0);z-index:60}
+
+/* nav */
+.nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:50;width:min(1160px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 10px 10px 22px;border-radius:999px;background:rgba(14,19,16,.55);border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%)}
+.brand{font-family:var(--display);font-weight:800;font-size:1.2rem;text-decoration:none;letter-spacing:-.02em}
+.brand span{color:var(--sun)}
+.nav-links{display:flex;gap:4px}
+.nav-links a{text-decoration:none;font-size:.9rem;color:var(--muted);padding:9px 14px;border-radius:999px;transition:color .2s,background .2s}
+.nav-links a:hover{color:var(--ink);background:rgba(255,255,255,.07)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 22px;border-radius:999px;font-weight:600;font-size:.95rem;text-decoration:none;cursor:pointer;border:0;transition:box-shadow .25s,background .25s}
+.btn-sun{background:var(--sun);color:var(--sun-ink)}
+.btn-sun:hover{box-shadow:0 10px 40px -8px rgba(240,179,74,.6)}
+.btn-glass{background:rgba(255,255,255,.08);color:var(--ink);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.btn-glass:hover{background:rgba(255,255,255,.14)}
+.btn svg{width:18px;height:18px;flex:none}
+@media (max-width:860px){.nav-links{display:none}.nav .btn{padding:10px 16px;min-height:42px;font-size:.88rem}}
+
+/* hero */
+.hero{min-height:100svh;padding:0;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media img{width:100%;height:115%;object-fit:cover;object-position:50% 40%;transform-origin:50% 60%}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(12,16,14,.55) 0%,rgba(12,16,14,0) 30%,rgba(12,16,14,.25) 55%,rgba(12,16,14,.96) 100%)}
+.hero-inner{width:100%;padding-bottom:clamp(36px,6vw,64px);text-shadow:0 2px 24px rgba(0,0,0,.45)}
+.hero .eyebrow{color:#ffd27a}
+.hero h1{font-size:clamp(2.9rem,9vw,8rem);max-width:12ch}
+.hero h1 .line{display:block;overflow:hidden;padding-bottom:.06em}
+.hero h1 .line>span{display:inline-block}
+.hero h1 em{font-style:normal;color:var(--sun)}
+.hero-row{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-top:30px}
+.hero p{max-width:470px;color:#d9dcd5;font-size:1.08rem;margin:0}
+.hero .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.scroll-cue{position:absolute;right:24px;top:50%;writing-mode:vertical-rl;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.7);display:flex;align-items:center;gap:12px}
+.scroll-cue::after{content:"";width:1px;height:60px;background:linear-gradient(rgba(255,255,255,.8),transparent);animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (max-width:860px){.scroll-cue{display:none}}
+
+/* marquee */
+.marquee{border-block:1px solid var(--card-b);padding:18px 0;overflow:hidden;background:var(--bg)}
+.marquee-track{display:flex;width:max-content;animation:mq 40s linear infinite}
+.marquee span{font-family:var(--display);font-size:clamp(1.3rem,2.6vw,2rem);font-weight:600;white-space:nowrap;padding:0 26px;color:var(--dim)}
+.marquee span b{color:var(--ink);font-weight:600}
+.marquee i{font-style:normal;color:var(--sun)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.stat{padding:28px;border-radius:var(--r);background:var(--card);border:1px solid var(--card-b)}
+.stat b{display:block;font-family:var(--display);font-size:clamp(2.6rem,5vw,4rem);font-weight:800;letter-spacing:-.03em;line-height:1}
+.stat span{color:var(--muted);font-size:.95rem}
+@media (max-width:760px){.stats{grid-template-columns:1fr}}
+
+/* where */
+.where{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center}
+.access{list-style:none;padding:0;margin:32px 0 0}
+.access li{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--card-b)}
+.access li span:last-child{color:var(--muted);text-align:right}
+.map{border-radius:var(--r);background:var(--bg-2);border:1px solid var(--card-b);padding:10px;overflow:hidden}
+.map svg{width:100%;height:auto;display:block}
+.map .pin{transform-box:fill-box;transform-origin:center}
+.map .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+@media (max-width:900px){.where{grid-template-columns:1fr}}
+
+/* trips */
+.trips-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.trips-viewport{margin-top:48px}
+.trips-track{display:flex;gap:22px}
+.trip{position:relative;flex:0 0 min(78vw,500px);border-radius:24px;overflow:hidden;background:var(--bg-2);border:1px solid var(--card-b);display:flex;flex-direction:column}
+.trip-img{position:relative;aspect-ratio:16/10;overflow:hidden}
+.trip-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.trip:hover .trip-img img{transform:scale(1.06)}
+.trip-num{position:absolute;top:16px;left:16px;font-family:var(--display);font-weight:800;font-size:.85rem;padding:6px 12px;border-radius:999px;background:rgba(12,16,14,.6);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15)}
+.trip-cap{position:absolute;bottom:10px;right:12px;font-size:.7rem;color:rgba(255,255,255,.8);background:rgba(0,0,0,.4);padding:2px 8px;border-radius:99px}
+.trip-body{padding:24px 26px 28px}
+.trip-area{font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sun);margin-bottom:10px}
+.trip-body p{color:var(--muted);margin:12px 0 16px}
+.trip-body ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.trip-body li{display:flex;gap:10px;font-size:.95rem;color:#d6d9d2}
+.trip-body li::before{content:"";flex:none;width:6px;height:6px;margin-top:.62em;border-radius:50%;background:var(--moss)}
+.trip.soon .trip-img img{filter:grayscale(.5) brightness(.75)}
+.trip.soon .trip-num{background:var(--sun);color:var(--sun-ink);border-color:transparent}
+@media (min-width:901px){
+  .trips-pin{min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:110px 0 60px}
+}
+@media (max-width:900px){
+  .trips-pin{padding-bottom:20px}
+  .trips-track{overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;margin:0 -20px;padding-inline:20px;scroll-padding-inline:20px;scrollbar-width:none}
+  .trips-track::-webkit-scrollbar{display:none}
+  .trip{scroll-snap-align:start}
+}
+.swipe-hint{display:none;color:var(--dim);font-size:.85rem;margin-top:10px}
+@media (max-width:900px){.swipe-hint{display:block}}
+
+/* panorama */
+.pano{padding:0;height:clamp(380px,64vh,640px);overflow:hidden;display:flex;align-items:center;isolation:isolate}
+.pano img{position:absolute;left:0;top:-12%;width:100%;height:124%;object-fit:cover;object-position:50% 65%;z-index:-2;filter:saturate(1.15) contrast(1.08)}
+.pano::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(12,16,14,.7),rgba(12,16,14,0) 60%),linear-gradient(0deg,var(--bg),transparent 22%,transparent 85%,var(--bg))}
+.pano .wrap{width:100%}
+.pano .big{font-family:var(--display);font-weight:800;font-size:clamp(5rem,18vw,15rem);line-height:.85;letter-spacing:-.05em}
+.pano .big small{font-size:.32em;letter-spacing:-.02em;color:var(--sun)}
+.pano p{max-width:420px;color:#eef0ea;font-size:1.1rem;margin:18px 0 0}
+.pano .wrap{text-shadow:0 2px 20px rgba(0,0,0,.6)}
+@media (max-width:760px){.pano::after{background:linear-gradient(0deg,var(--bg),rgba(12,16,14,.45) 30%,rgba(12,16,14,.45) 80%,var(--bg))}}
+
+/* timeline */
+.day-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start;margin-top:56px}
+.day-media{position:sticky;top:110px;border-radius:24px;overflow:hidden;aspect-ratio:4/5;background:var(--bg-2)}
+.day-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s var(--ease),transform 1.4s var(--ease);transform:scale(1.06)}
+.day-media img.on{opacity:1;transform:scale(1)}
+.timeline{position:relative;padding-left:34px}
+.timeline::before,.tl-fill{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:2px;background:var(--card-b);border-radius:2px}
+.tl-fill{background:linear-gradient(var(--sun),var(--moss));transform-origin:top;transform:scaleY(0)}
+.step{position:relative;padding:22px 0 34px}
+.step::before{content:"";position:absolute;left:-34px;top:30px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:2px solid var(--dim);transition:border-color .4s,background .4s,box-shadow .4s}
+.step.active::before{border-color:var(--sun);background:var(--sun);box-shadow:0 0 0 6px rgba(240,179,74,.18)}
+.step time{font-family:var(--display);font-weight:800;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.03em;line-height:1;color:var(--dim);transition:color .4s}
+.step.active time{color:var(--ink)}
+.step h3{margin-top:10px}
+.step p{color:var(--muted);margin:8px 0 0;max-width:460px}
+.day-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,16,14,.55),transparent 28%,transparent 60%,rgba(12,16,14,.5));pointer-events:none}
+.day-prog{position:absolute;z-index:2;top:20px;left:20px;right:20px;display:flex;gap:6px}
+.day-prog i{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.25);overflow:hidden;position:relative}
+.day-prog i::after{content:"";position:absolute;inset:0;background:var(--ink);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.day-prog i.on::after{transform:scaleX(1)}
+.day-now{position:absolute;z-index:2;left:22px;bottom:18px;font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,5vw,3.6rem);letter-spacing:-.03em;line-height:1;overflow:hidden;text-shadow:0 2px 20px rgba(0,0,0,.4)}
+.day-now{height:1.05em;min-width:4ch}
+.day-now span{position:absolute;left:0;top:0;white-space:nowrap;transition:transform .45s var(--ease),opacity .3s}
+.day-now span.out{transform:translateY(-40%);opacity:0;transition:transform .22s ease-in,opacity .2s}
+.day-now span.in{transform:translateY(40%);opacity:0;transition:none}
+@media (max-width:900px){
+  .day-grid{display:block;margin-top:40px}
+  .day-media{position:sticky;top:0;height:100svh;aspect-ratio:auto;border-radius:0;margin:0 -20px;z-index:0}
+  .day-media::after{background:linear-gradient(180deg,rgba(12,16,14,.7),transparent 30%,transparent 45%,rgba(12,16,14,.85))}
+  .day-prog{top:86px}
+  .day-now{display:none}
+  .timeline{margin-top:-100svh;padding:0;z-index:1}
+  .timeline::before,.tl-fill{display:none}
+  .step{min-height:90svh;display:flex;align-items:flex-end;padding:0 0 9svh}
+  .step:first-of-type{min-height:100svh}
+  .step::before{display:none}
+  .step-card{width:100%;padding:22px 22px 24px;border-radius:22px;background:rgba(14,19,16,.55);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);opacity:.35;transform:translateY(24px) scale(.97);transition:opacity .6s var(--ease),transform .7s var(--ease)}
+  .step.current .step-card{opacity:1;transform:none}
+  .step time{color:var(--sun)!important}
+  .step p{color:#d3d7cf}
+}
+
+/* price */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.calc{border-radius:24px;padding:30px;background:linear-gradient(160deg,rgba(240,179,74,.14),rgba(255,255,255,.03) 45%);border:1px solid var(--card-b)}
+.calc-label{font-size:.85rem;color:var(--muted);margin-bottom:12px}
+.sizes{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.sizes button{min-height:52px;border-radius:14px;border:1px solid var(--card-b);background:rgba(255,255,255,.04);color:var(--ink);font:600 1.1rem var(--display);cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .2s}
+.sizes button:hover{border-color:rgba(255,255,255,.3)}
+.sizes button[aria-pressed="true"]{background:var(--sun);color:var(--sun-ink);border-color:var(--sun)}
+.sizes button:active{transform:scale(.95)}
+.calc-out{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px;padding-top:24px;border-top:1px solid var(--card-b)}
+.calc-out span{display:block;font-size:.85rem;color:var(--muted)}
+.calc-out b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,4.4vw,3.2rem);letter-spacing:-.03em;line-height:1.1;font-variant-numeric:tabular-nums}
+.calc-out .per b{color:var(--sun)}
+.calc-note{font-size:.88rem;color:var(--muted);margin:14px 0 0}
+.pt{width:100%;border-collapse:collapse;margin-top:24px;font-variant-numeric:tabular-nums}
+.pt td{padding:12px 0;border-bottom:1px solid var(--card-b);color:var(--muted);transition:color .3s}
+.pt td:nth-child(2),.pt td:nth-child(3){text-align:right}
+.pt td:nth-child(2){font-weight:600}
+.pt tr.hl td{color:var(--ink)}
+.pt tr.hl td:nth-child(2){color:var(--sun)}
+.incl{margin-top:30px;display:grid;gap:14px}
+.incl div{display:flex;gap:12px;align-items:flex-start;color:var(--muted)}
+.incl b{color:var(--ink)}
+.incl svg{flex:none;width:22px;height:22px;margin-top:2px}
+@media (max-width:900px){.price-grid{grid-template-columns:1fr}}
+@media (max-width:420px){.sizes{grid-template-columns:repeat(3,1fr)}.calc{padding:22px}}
+
+/* guides */
+.guides{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:56px}
+.guide{position:relative;border-radius:24px;padding:30px;background:var(--card);border:1px solid var(--card-b);overflow:hidden}
+.guide::before{content:"";position:absolute;right:-120px;bottom:-160px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,179,74,.16),transparent 65%);pointer-events:none}
+.avatar{width:84px;height:84px;border-radius:22px;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.8rem;background:linear-gradient(135deg,#2a3a2f,#18201b);border:1px solid var(--card-b);margin-bottom:22px;color:var(--sun)}
+.langs{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 16px}
+.langs span{font-size:.78rem;font-weight:600;padding:4px 11px;border-radius:999px;background:rgba(156,197,138,.14);color:var(--moss);border:1px solid rgba(156,197,138,.25)}
+.guide p{color:var(--muted);margin:0}
+.guide .years{position:absolute;top:28px;right:30px;text-align:right;font-size:.8rem;color:var(--dim)}
+.guide .years b{display:block;font-family:var(--display);font-size:2.6rem;font-weight:800;color:var(--ink);line-height:1}
+@media (max-width:860px){.guides{grid-template-columns:1fr}}
+
+/* info */
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:56px}
+.info div{padding:24px;border-radius:var(--r);background:var(--card);border:1px solid var(--card-b)}
+.info h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin-bottom:8px;letter-spacing:0}
+.info p{margin:0;color:var(--muted);font-size:.95rem}
+@media (max-width:900px){.info{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.info{grid-template-columns:1fr}}
+
+/* faq */
+.faq{max-width:860px;margin-top:48px}
+.qa{border-top:1px solid var(--card-b)}
+.qa:last-child{border-bottom:1px solid var(--card-b)}
+.qa button{all:unset;box-sizing:border-box;width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;cursor:pointer;font-family:var(--display);font-size:clamp(1.1rem,2vw,1.35rem);font-weight:600}
+.qa button:focus-visible{outline:2px solid var(--sun);outline-offset:4px}
+.qa .ic{position:relative;flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--card-b);display:grid;place-items:center;transition:background .3s}
+.qa .ic::before,.qa .ic::after{content:"";position:absolute;width:12px;height:1.5px;background:var(--ink)}
+.qa .ic::after{transform:rotate(90deg);transition:transform .4s var(--ease)}
+.qa[data-open="true"] .ic{background:var(--sun)}
+.qa[data-open="true"] .ic::before,.qa[data-open="true"] .ic::after{background:var(--sun-ink)}
+.qa[data-open="true"] .ic::after{transform:rotate(0)}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.qa[data-open="true"] .ans{grid-template-rows:1fr}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{margin:0 0 24px;color:var(--muted);max-width:700px}
+
+/* contact */
+.contact{overflow:hidden;isolation:isolate;text-align:center}
+.contact::before{content:"";position:absolute;width:900px;height:900px;left:50%;top:50%;transform:translate(-50%,-50%);z-index:-1;background:radial-gradient(circle,rgba(240,179,74,.18),transparent 60%)}
+.contact h2{font-size:clamp(2.6rem,8vw,6.5rem);max-width:12ch;margin:0 auto}
+.contact .lead{margin-inline:auto}
+.dm-steps{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:34px auto 38px;max-width:760px;padding:0;list-style:none}
+.dm-steps li{padding:10px 18px;border-radius:999px;background:var(--card);border:1px solid var(--card-b);font-size:.92rem;color:#d6d9d2}
+.dm-steps li b{color:var(--sun);margin-right:6px}
+.ig-btn{font-size:1.1rem;padding:18px 32px;min-height:60px;background:linear-gradient(90deg,#f9ce34,#ee2a7b 55%,#6228d7);color:#fff}
+.ig-btn:hover{box-shadow:0 18px 60px -12px rgba(238,42,123,.6)}
+
+/* footer */
+footer{border-top:1px solid var(--card-b);padding:40px 0 50px;color:var(--dim);font-size:.85rem}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+footer a{color:var(--muted)}
+.credits{margin-top:26px;font-size:.75rem;line-height:1.7}
+.credits summary{cursor:pointer;color:var(--muted)}
+.credits ul{padding-left:18px;margin:10px 0 0}
+
+/* reveal: only hidden when JS + GSAP are running */
+.anim .rv{opacity:0;transform:translateY(32px)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#top">realjapan <span>days</span></a>
+  <nav class="nav-links" aria-label="Main">
+    <a href="#trips">Trips</a><a href="#day">The day</a><a href="#price">Price</a><a href="#guides">Guides</a><a href="#faq">FAQ</a>
+  </nav>
+  <a class="btn btn-sun mag" href="https://ig.me/m/realjapan_days" target="_blank" rel="noopener">Message us</a>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-media">
+    <img src="img/hero.webp" srcset="img/hero-1200.webp 1200w, img/hero.webp 2400w" sizes="100vw" alt="Mt. Tsukuba seen from a farm road in the countryside" fetchpriority="high">
+  </div>
+  <div class="scroll-cue" aria-hidden="true">Scroll</div>
+  <div class="wrap hero-inner">
+    <div class="eyebrow">Day trips · Ibaraki · from Tokyo</div>
+    <h1><span class="line"><span>You live</span></span> <span class="line"><span>in Japan.</span></span> <span class="line"><span>Now see <em>this</em>.</span></span></h1>
+    <div class="hero-row">
+      <p>Climb Mt. Tsukuba, soak in a hot spring, stand under a 120-meter Buddha and have sushi at a place locals love. Small groups, in English, Spanish or Portuguese.</p>
+      <div class="ctas">
+        <a class="btn btn-sun mag" href="#trips">See the trips</a>
+        <a class="btn btn-glass" href="https://ig.me/m/realjapan_days" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          DM on Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span><b>Mt. Tsukuba</b> <i>✦</i></span><span><b>Tsukuba no Yu</b> <i>✦</i></span><span><b>Ushiku Daibutsu</b> <i>✦</i></span><span><b>Yasuke Sushi</b> <i>✦</i></span><span>Kashima — soon <i>✦</i></span>
+    <span><b>Mt. Tsukuba</b> <i>✦</i></span><span><b>Tsukuba no Yu</b> <i>✦</i></span><span><b>Ushiku Daibutsu</b> <i>✦</i></span><span><b>Yasuke Sushi</b> <i>✦</i></span><span>Kashima — soon <i>✦</i></span>
+  </div>
+</div>
+
+<!-- WHERE -->
+<section id="where">
+  <div class="wrap">
+    <div class="where">
+      <div>
+        <div class="eyebrow rv">Where</div>
+        <h2 class="rv">An easy day out from Tokyo.</h2>
+        <p class="lead rv">Southern Ibaraki is farmland, small towns and Mt. Tsukuba, just past the edge of the Tokyo suburbs. Close enough for a day trip, quiet enough that you won't be stuck in a crowd.</p>
+        <ul class="access rv">
+          <li><span>Akihabara → Tsukuba</span><span>Tsukuba Express, about 45 min</span></li>
+          <li><span>Ueno → Ushiku</span><span>JR Joban Line, about 50 min</span></li>
+        </ul>
+      </div>
+      <div class="map rv" aria-label="Map of the trip area">
+        <svg viewBox="0 0 480 370" role="img">
+          <title>Tokyo, Mt. Tsukuba, Tsukuba, Ushiku and Kashima</title>
+          <defs><pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="rgba(255,255,255,.07)"/></pattern></defs>
+          <rect width="480" height="370" fill="#121815"/>
+          <rect width="480" height="370" fill="url(#dots)"/>
+          <path d="M440 0 C430 80 438 150 432 200 C425 250 410 300 470 370 L480 370 L480 0 Z" fill="#1b2b33"/>
+          <path d="M0 370 L0 330 C40 320 70 345 90 370 Z" fill="#1b2b33"/>
+          <path d="M262 118 C290 100 345 108 372 130 C392 146 380 176 352 184 C330 190 316 210 300 205 C285 200 292 178 276 168 C258 156 246 132 262 118 Z" fill="#1b2b33"/>
+          <text x="318" y="152" font-size="10.5" fill="#6f8f9a" text-anchor="middle" font-family="Inter,sans-serif">Lake Kasumigaura</text>
+          <path d="M120 300 C180 270 230 250 280 240 C340 228 380 240 432 225" fill="none" stroke="#25404a" stroke-width="3"/>
+          <path id="tx" d="M70 330 L204 133" stroke="#f0b34a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path id="joban" d="M70 330 C130 290 190 240 244 200" stroke="#9cc58a" stroke-width="2" fill="none" stroke-dasharray="4 5" opacity=".8"/>
+          <text x="112" y="232" font-size="10" fill="#f0b34a" font-family="Inter,sans-serif" transform="rotate(-56 112 232)">Tsukuba Express · 45 min</text>
+          <path d="M184 68 L200 44 L216 68 Z" fill="#9cc58a"/>
+          <text x="222" y="62" font-size="12" fill="#f2efe8" font-weight="600" font-family="Inter,sans-serif">Mt. Tsukuba</text>
+          <g font-family="Inter,sans-serif" font-size="13" fill="#f2efe8" font-weight="600">
+            <circle class="pulse" cx="204" cy="133" r="7" fill="#f0b34a"/>
+            <circle class="pulse" cx="244" cy="200" r="7" fill="#f0b34a" style="animation-delay:.8s"/>
+            <circle class="pin" cx="70" cy="330" r="6" fill="#f2efe8"/><text x="82" y="334">Tokyo</text>
+            <circle class="pin" cx="204" cy="133" r="7" fill="#f0b34a"/><text x="146" y="122">Tsukuba</text>
+            <circle class="pin" cx="244" cy="200" r="7" fill="#f0b34a"/><text x="256" y="216">Ushiku Daibutsu</text>
+            <circle class="pin" cx="416" cy="187" r="6" fill="#7d857c"/><text x="350" y="172" fill="#a9b0a8">Kashima (soon)</text>
+          </g>
+          <text x="14" y="22" font-size="10.5" fill="#7d857c" font-family="Inter,sans-serif">Not to scale</text>
+        </svg>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><b><span data-count="45">45</span> min</b><span>Akihabara → Tsukuba by train</span></div>
+      <div class="stat rv"><b>1–<span data-count="6">6</span></b><span>people per group, your group only</span></div>
+      <div class="stat rv"><b><span data-count="3">3</span></b><span>languages: English, Español, Português</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRIPS -->
+<section id="trips" style="padding:0">
+  <div class="trips-pin">
+    <div class="wrap">
+      <div class="trips-head">
+        <div>
+          <div class="eyebrow">Trips</div>
+          <h2>Where we take you.</h2>
+        </div>
+        <p class="lead" style="margin:0;max-width:420px">A full day with your own small group. We can mix these depending on the season and what you want to do.</p>
+      </div>
+      <div class="trips-viewport">
+        <div class="trips-track">
+          <article class="trip">
+            <div class="trip-img"><img src="img/fields.webp" alt="Mt. Tsukuba rising behind rice fields" loading="lazy"><span class="trip-num">01</span></div>
+            <div class="trip-body">
+              <div class="trip-area">Tsukuba</div>
+              <h3>Mt. Tsukuba and a hot spring</h3>
+              <p>An 877-meter mountain with two peaks and a view over the Kanto plain on a clear day.</p>
+              <ul>
+                <li>Hike up, or ride the cable car or ropeway</li>
+                <li>Tsukubasan Shrine on the way</li>
+                <li>Finish with a soak at Tsukuba no Yu</li>
+              </ul>
+            </div>
+          </article>
+          <article class="trip">
+            <div class="trip-img"><img src="img/daibutsu.webp" alt="Ushiku Daibutsu standing above cherry blossoms" loading="lazy" style="object-position:50% 30%"><span class="trip-num">02</span></div>
+            <div class="trip-body">
+              <div class="trip-area">Ushiku</div>
+              <h3>Ushiku Daibutsu</h3>
+              <p>A 120-meter bronze Buddha standing in the middle of the fields. You can go up inside it to a viewing floor.</p>
+              <ul>
+                <li>Gardens around the statue</li>
+                <li>The inside of the statue and the view from the top</li>
+              </ul>
+            </div>
+          </article>
+          <article class="trip">
+            <div class="trip-img"><img src="img/sushi.webp" alt="A plate of nigiri sushi" loading="lazy"><span class="trip-num">03</span><span class="trip-cap">Illustrative photo</span></div>
+            <div class="trip-body">
+              <div class="trip-area">Lunch</div>
+              <h3>Sushi at Yasuke</h3>
+              <p>The kind of place that feels like a proper Japanese sushi restaurant – and the sushi is really good.</p>
+              <ul>
+                <li>Tell us about allergies or diet beforehand</li>
+                <li>Everyone orders and pays for their own lunch</li>
+              </ul>
+            </div>
+          </article>
+          <article class="trip soon">
+            <div class="trip-img"><img src="img/kashima-forest.webp" alt="Forest path at Kashima Jingu shrine" loading="lazy"><span class="trip-num">Coming soon</span></div>
+            <div class="trip-body">
+              <div class="trip-area">Kashima</div>
+              <h3>Kashima</h3>
+              <p>Kashima Jingu shrine and its forest, and the coast. Details coming soon.</p>
+            </div>
+          </article>
+        </div>
+        <p class="swipe-hint">Swipe →</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANORAMA -->
+<section class="pano" aria-label="View from Mt. Tsukuba">
+  <img src="img/view.webp" alt="The Kanto plain seen from the top of Mt. Tsukuba" loading="lazy">
+  <div class="wrap">
+    <div class="big rv"><span data-count="877">877</span><small> m</small></div>
+    <p class="rv">On a clear day you can see across the whole Kanto plain from the top of Mt. Tsukuba.</p>
+  </div>
+</section>
+
+<!-- DAY -->
+<section id="day">
+  <div class="wrap">
+    <div class="eyebrow rv">The day</div>
+    <h2 class="rv">What a day looks like.</h2>
+    <p class="lead rv">An example. Times change with the season and with your group.</p>
+    <div class="day-grid">
+      <div class="day-media" aria-hidden="true">
+        <img class="on" src="img/hero-1200.webp" alt="" loading="lazy">
+        <img src="img/cablecar.webp" alt="" loading="lazy">
+        <img src="img/sushi.webp" alt="" loading="lazy">
+        <img src="img/daibutsu-up.webp" alt="" loading="lazy" style="object-position:74% 40%">
+        <img src="img/trail.webp" alt="" loading="lazy">
+        <div class="day-prog"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="day-now"><span>9:00</span></div>
+      </div>
+      <div class="timeline">
+        <div class="tl-fill" aria-hidden="true"></div>
+        <div class="step" data-img="0"><div class="step-card"><time>9:00</time><h3>Meet at Tsukuba Station, Exit A5</h3><p>The Tsukuba Express from Akihabara takes about 45 minutes.</p></div></div>
+        <div class="step" data-img="1"><div class="step-card"><time>9:30</time><h3>Mt. Tsukuba</h3><p>Walk up or ride up – your choice.</p></div></div>
+        <div class="step" data-img="2"><div class="step-card"><time>12:30</time><h3>Sushi lunch at Yasuke</h3><p>Tell us about allergies or diet beforehand.</p></div></div>
+        <div class="step" data-img="3"><div class="step-card"><time>14:30</time><h3>Ushiku Daibutsu</h3><p>Walk the gardens and go up inside the statue.</p></div></div>
+        <div class="step" data-img="4"><div class="step-card"><time>16:30</time><h3>Tsukuba no Yu hot spring</h3><p>A soak to finish the day, then home.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section id="price">
+  <div class="wrap price-grid">
+    <div>
+      <div class="eyebrow rv">Price</div>
+      <h2 class="rv">More of you, less each.</h2>
+      <p class="lead rv">One price for your group for the whole day. Prices include tax.</p>
+      <div class="incl rv">
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="#9cc58a" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span><b>Included:</b> your guide for the whole day.</span></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="#7d857c" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span><b>Pay on the day yourself:</b> train fare, lunch, entry fees, cable car or ropeway, and the hot spring.</span></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="#9cc58a" stroke-width="2" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg><span><b>Payment:</b> cash or credit card.</span></div>
+      </div>
+    </div>
+    <div class="calc rv">
+      <div class="calc-label" id="sizes-label">How many in your group?</div>
+      <div class="sizes" role="group" aria-labelledby="sizes-label">
+        <button type="button" data-n="1" aria-pressed="false">1</button><button type="button" data-n="2" aria-pressed="true">2</button><button type="button" data-n="3" aria-pressed="false">3</button><button type="button" data-n="4" aria-pressed="false">4</button><button type="button" data-n="5" aria-pressed="false">5</button><button type="button" data-n="6" aria-pressed="false">6</button>
+      </div>
+      <div class="calc-out" aria-live="polite">
+        <div class="per"><span>Per person</span><b id="per">¥25,000</b></div>
+        <div><span>Group total</span><b id="tot">¥50,000</b></div>
+      </div>
+      <table class="pt">
+        <tbody>
+          <tr data-row="1"><td>1 person</td><td>¥40,000</td><td>¥40,000</td></tr>
+          <tr data-row="2" class="hl"><td>2 people</td><td>¥25,000</td><td>¥50,000</td></tr>
+          <tr data-row="3"><td>3 people</td><td>¥20,000</td><td>¥60,000</td></tr>
+          <tr data-row="4"><td>4 people</td><td>¥17,500</td><td>¥70,000</td></tr>
+          <tr data-row="5"><td>5–6 people</td><td>¥15,000</td><td>¥75,000–90,000</td></tr>
+        </tbody>
+      </table>
+      <p class="calc-note">Per person, tax included.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GUIDES -->
+<section id="guides" style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow rv">Guides</div>
+    <h2 class="rv">They moved here too.</h2>
+    <p class="lead rv">Our guides came to Japan from abroad and have lived here for about twenty years, so they know what it's like – and the questions you've been wanting to ask.</p>
+    <div class="guides">
+      <article class="guide rv">
+        <div class="years"><b><span data-count="18">18</span></b>years in Japan</div>
+        <div class="avatar" aria-hidden="true">L</div>
+        <h3>Talaman Leopoldo III Lebrilio</h3>
+        <div class="langs"><span>English</span><span>日本語</span></div>
+        <p>From the Philippines. Has climbed both Mt. Tsukuba and Mt. Fuji, so the mountain part of the day is in good hands.</p>
+      </article>
+      <article class="guide rv">
+        <div class="years"><b><span data-count="21">21</span></b>years in Japan</div>
+        <div class="avatar" aria-hidden="true">A</div>
+        <h3>Azeldo Lucas Katayama</h3>
+        <div class="langs"><span>Español</span><span>Português</span><span>日本語</span></div>
+        <p>From Brazil. Favorite place around here: Kashima Stadium, home of the Kashima Antlers.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INFO -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow rv">Good to know</div>
+    <h2 class="rv">Before you come.</h2>
+    <div class="info">
+      <div class="rv"><h3>Group size</h3><p>1–6 people. Your group only – we don't mix you with strangers.</p></div>
+      <div class="rv"><h3>Walking</h3><p>Mostly easy. The Mt. Tsukuba hike is optional – the cable car and ropeway go up too.</p></div>
+      <div class="rv"><h3>Bring</h3><p>Shoes you can walk in, and money for train fare, lunch, entry fees and the onsen. Bring your own towel or rent one there.</p></div>
+      <div class="rv"><h3>Booking</h3><p>Send us a DM on Instagram with your date and group size.</p></div>
+      <div class="rv"><h3>Rain</h3><p>If it rains, the trip is cancelled and we'll tell you by Instagram DM. You pay nothing.</p></div>
+      <div class="rv"><h3>If you need to cancel</h3><p>Free up to 2 days before. On the day before or the day of the trip, the full price is charged.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow rv">FAQ</div>
+    <h2 class="rv">Questions.</h2>
+    <div class="faq">
+      <div class="qa"><button aria-expanded="false">How do I get there from Tokyo?<span class="ic" aria-hidden="true"></span></button><div class="ans"><div><p>Take the Tsukuba Express from Akihabara to Tsukuba Station, about 45 minutes. We meet at Exit A5 at 9:00.</p></div></div></div>
+      <div class="qa"><button aria-expanded="false">I have a tattoo. Can I use the hot spring?<span class="ic" aria-hidden="true"></span></button><div class="ans"><div><p>At Tsukuba no Yu, large tattoos are not allowed. A small one-point tattoo is OK if you cover it with a tattoo sticker (sold at the front desk) and keep it covered the whole time you're inside.</p></div></div></div>
+      <div class="qa"><button aria-expanded="false">Is it OK for kids or older people?<span class="ic" aria-hidden="true"></span></button><div class="ans"><div><p>Yes. We'll adjust the walking to suit your group. Tell us ages when you message us.</p></div></div></div>
+      <div class="qa"><button aria-expanded="false">What if it rains?<span class="ic" aria-hidden="true"></span></button><div class="ans"><div><p>The trip is cancelled and we'll message you on Instagram. You pay nothing.</p></div></div></div>
+      <div class="qa"><button aria-expanded="false">Can we change the plan?<span class="ic" aria-hidden="true"></span></button><div class="ans"><div><p>Yes. Tell us what you're into and we'll put the day together around it.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="eyebrow rv" style="justify-content:center">Book</div>
+    <h2 class="rv">Send us a message.</h2>
+    <p class="lead rv">No booking system – a real person reads your message and replies.</p>
+    <ol class="dm-steps rv">
+      <li><b>1</b>Your date (or a couple of options)</li>
+      <li><b>2</b>How many people, and kids' ages</li>
+      <li><b>3</b>Which language</li>
+      <li><b>4</b>Anything you really want to see or eat</li>
+    </ol>
+    <a class="btn ig-btn mag rv" href="https://ig.me/m/realjapan_days" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+      @realjapan_days</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <span>realjapan days · Ibaraki, Japan · <a href="https://www.instagram.com/realjapan_days/" target="_blank" rel="noopener">Instagram</a></span>
+    </div>
+    <details class="credits">
+      <summary>Photo credits</summary>
+      <p style="margin:8px 0 0">Photos from Wikimedia Commons, resized (and cropped where noted). The sushi photo is illustrative and was not taken at Yasuke.</p>
+      <ul>
+        <li>Mt. Tsukuba from a farm road: Σ64, <a href="https://commons.wikimedia.org/wiki/File:Mt.Tsukuba_05.jpg">Mt.Tsukuba 05.jpg</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+        <li>Mt. Tsukuba and rice fields: Σ64, <a href="https://commons.wikimedia.org/wiki/File:Mt.Tsukuba_07.jpg">Mt.Tsukuba 07.jpg</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+        <li>View from the ropeway station: Twilight2640, <a href="https://commons.wikimedia.org/wiki/File:View_from_Tsukubasan_Ropeway_Nyotaisan_station_observatory.JPG">View from Tsukubasan Ropeway Nyotaisan station observatory.JPG</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li>
+        <li>Cable car: Nyao148 (crop/edit Kzaral), <a href="https://commons.wikimedia.org/wiki/File:Mt_Tsukuba_Cable_Car.jpg">Mt Tsukuba Cable Car.jpg</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+        <li>Trail on Mt. Tsukuba: Syced, <a href="https://commons.wikimedia.org/wiki/File:Tsutsujigaoka,_on_Mount_Tsukuba_6.jpg">Tsutsujigaoka, on Mount Tsukuba 6.jpg</a>, CC0</li>
+        <li>Ushiku Daibutsu with cherry blossoms (cropped): Manish Prabhune, <a href="https://commons.wikimedia.org/wiki/File:Okiku_Daibutsu_Cherry_Blossoms.jpg">Okiku Daibutsu Cherry Blossoms.jpg</a>, CC0</li>
+        <li>Kashima Jingu forest: そらみみ (Soramimi), <a href="https://commons.wikimedia.org/wiki/File:Forest_in_Kashima_Shrine.jpg">Forest in Kashima Shrine.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li>
+        <li>Sushi (cropped): Andy Li, <a href="https://commons.wikimedia.org/wiki/File:Chef_Special_Sushi_Set_-_Memo_Wall_Japanese_Cuisine.jpg">Chef Special Sushi Set - Memo Wall Japanese Cuisine.jpg</a>, CC0</li>
+      </ul>
+    </details>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasG=!!(window.gsap&&window.ScrollTrigger);
+
+  /* ---- price calculator ---- */
+  var P={1:40000,2:25000,3:20000,4:17500,5:15000,6:15000};
+  var fmt=function(n){return '¥'+Math.round(n).toLocaleString('en-US')};
+  var perEl=document.getElementById('per'), totEl=document.getElementById('tot');
+  var cur={per:25000,tot:50000};
+  function setSize(n){
+    document.querySelectorAll('.sizes button').forEach(function(b){b.setAttribute('aria-pressed',String(+b.dataset.n===n))});
+    document.querySelectorAll('.pt tr').forEach(function(r){r.classList.toggle('hl',+r.dataset.row===Math.min(n,5))});
+    var to={per:P[n],tot:P[n]*n};
+    if(hasG&&!reduce){gsap.to(cur,{per:to.per,tot:to.tot,duration:.6,ease:'expo.out',overwrite:true,onUpdate:function(){perEl.textContent=fmt(cur.per);totEl.textContent=fmt(cur.tot)}})}
+    else{cur=to;perEl.textContent=fmt(to.per);totEl.textContent=fmt(to.tot)}
+  }
+  document.querySelectorAll('.sizes button').forEach(function(b){b.addEventListener('click',function(){setSize(+b.dataset.n)})});
+
+  /* ---- FAQ ---- */
+  document.querySelectorAll('.qa button').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var qa=btn.parentElement, open=qa.dataset.open==='true';
+      qa.dataset.open=String(!open); btn.setAttribute('aria-expanded',String(!open));
+    });
+  });
+
+  /* ---- timeline: active step + photo switch ---- */
+  var imgs=document.querySelectorAll('.day-media img'), steps=[].slice.call(document.querySelectorAll('.step'));
+  var segs=document.querySelectorAll('.day-prog i'), now=document.querySelector('.day-now'), last=-1;
+  var nowSpan=now.querySelector('span'), nowT=null, nowWant=nowSpan.textContent;
+  function setNow(t){
+    if(t===nowWant)return; nowWant=t; clearTimeout(nowT);
+    nowSpan.classList.remove('in'); nowSpan.classList.add('out');
+    nowT=setTimeout(function(){
+      nowSpan.textContent=nowWant; nowSpan.classList.remove('out'); nowSpan.classList.add('in');
+      void nowSpan.offsetWidth; nowSpan.classList.remove('in');
+    },220);
+  }
+  function activate(i){
+    if(i===last)return;
+    steps.forEach(function(s,k){s.classList.toggle('active',k<=i);s.classList.toggle('current',k===i)});
+    segs.forEach(function(g,k){g.classList.toggle('on',k<=i)});
+    imgs.forEach(function(im,k){im.classList.toggle('on',k===+steps[i].dataset.img)});
+    setNow(steps[i].querySelector('time').textContent);
+    last=i;
+  }
+  activate(0);
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)activate(steps.indexOf(e.target))})},{rootMargin:'-45% 0px -50% 0px'});
+    steps.forEach(function(s){io.observe(s)});
+  }
+
+  if(!hasG||reduce) return;
+  document.documentElement.classList.add('anim');
+  gsap.registerPlugin(ScrollTrigger);
+  var E='expo.out';
+
+  gsap.to('.progress',{scaleX:1,ease:'none',scrollTrigger:{start:0,end:'max',scrub:.2}});
+
+  /* hero intro */
+  var tl=gsap.timeline({defaults:{ease:E}});
+  tl.from('.hero-media img',{scale:1.25,duration:2.4})
+    .from('.hero h1 .line>span',{yPercent:110,duration:1.3,stagger:.12},.2)
+    .from('.hero .eyebrow, .hero-row>*',{y:24,opacity:0,duration:1,stagger:.1},.7)
+    .from('.nav',{y:-30,opacity:0,duration:1,clearProps:'transform'},.5);
+  gsap.to('.hero-media',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+  gsap.to('.hero-inner',{y:-80,opacity:0,ease:'none',scrollTrigger:{trigger:'.hero',start:'60% center',end:'bottom top',scrub:true}});
+
+  /* reveals */
+  ScrollTrigger.batch('.rv',{start:'top 90%',onEnter:function(b){gsap.to(b,{opacity:1,y:0,duration:1.1,ease:E,stagger:.08,overwrite:true})}});
+
+  /* count-ups */
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count,o={v:0};
+    gsap.to(o,{v:end,duration:1.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%',once:true},onUpdate:function(){el.textContent=Math.round(o.v)}});
+  });
+
+  /* map */
+  var tx=document.querySelector('#tx'),L=tx.getTotalLength();
+  gsap.fromTo(tx,{strokeDasharray:L,strokeDashoffset:L},{strokeDashoffset:0,duration:1.6,ease:'power2.inOut',scrollTrigger:{trigger:'.map',start:'top 75%'}});
+  gsap.from('#joban',{opacity:0,duration:1.2,delay:.8,scrollTrigger:{trigger:'.map',start:'top 75%'}});
+  gsap.from('.map .pin',{scale:0,duration:.8,ease:'back.out(2.5)',stagger:.15,scrollTrigger:{trigger:'.map',start:'top 75%'}});
+
+  /* trips: pinned horizontal scroll on desktop */
+  var mm=gsap.matchMedia();
+  mm.add('(min-width: 901px)',function(){
+    var track=document.querySelector('.trips-track'), vp=document.querySelector('.trips-viewport');
+    var dist=function(){return Math.max(0,track.scrollWidth-vp.clientWidth)};
+    if(dist()<=0) return;
+    gsap.to(track,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'.trips-pin',start:'top top',end:function(){return '+='+dist()*1.2},pin:true,scrub:.6,invalidateOnRefresh:true,anticipatePin:1}});
+  });
+  gsap.from('.trip',{y:60,opacity:0,duration:1.2,ease:E,stagger:.1,scrollTrigger:{trigger:'#trips',start:'top 75%'}});
+
+  /* panorama parallax */
+  gsap.fromTo('.pano img',{yPercent:-8},{yPercent:8,ease:'none',scrollTrigger:{trigger:'.pano',start:'top bottom',end:'bottom top',scrub:true}});
+
+  /* timeline fill */
+  gsap.to('.tl-fill',{scaleY:1,ease:'none',scrollTrigger:{trigger:'.timeline',start:'top 55%',end:'bottom 55%',scrub:true}});
+
+  /* magnetic buttons (mouse only) */
+  if(window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+    document.querySelectorAll('.mag').forEach(function(b){
+      b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();gsap.to(b,{x:(e.clientX-r.left-r.width/2)*.25,y:(e.clientY-r.top-r.height/2)*.35,duration:.4,ease:'power3.out'})});
+      b.addEventListener('mouseleave',function(){gsap.to(b,{x:0,y:0,duration:.6,ease:'elastic.out(1,.4)'})});
+    });
+  }
+  window.addEventListener('load',function(){ScrollTrigger.refresh()});
+})();
+</script>
+</body>
+</html>

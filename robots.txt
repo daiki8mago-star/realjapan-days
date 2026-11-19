@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://realjapandays.com/sitemap.xml
